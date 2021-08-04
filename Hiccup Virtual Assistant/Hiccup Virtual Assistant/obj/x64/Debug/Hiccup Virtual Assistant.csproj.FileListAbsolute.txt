@@ -1,0 +1,35 @@
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.codec.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Hiccup Virtual Assistant.exe.config
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Hiccup Virtual Assistant.exe
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Hiccup Virtual Assistant.pdb
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.csprojAssemblyReference.cache
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Interop.SpeechLib.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.csproj.ResolveComReference.cache
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup_Virtual_Assistant.MainWindow.resources
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup_Virtual_Assistant.Properties.Resources.resources
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup_Virtual_Assistant.SettingsForm.resources
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.csproj.GenerateResource.cache
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.csproj.CoreCompileInputs.cache
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.csproj.CopyComplete
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.exe
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup Virtual Assistant.pdb
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\FSharp.Core.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Process Speech Input.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\Process Speech Input.pdb
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\FSharp.Core.xml
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\cs\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\de\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\es\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\fr\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\it\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\ja\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\ko\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\pl\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\pt-BR\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\ru\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\tr\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup_Virtual_Assistant.WebForm.resources
