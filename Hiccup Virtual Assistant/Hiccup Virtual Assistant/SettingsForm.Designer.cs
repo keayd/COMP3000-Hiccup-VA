@@ -29,6 +29,7 @@ namespace Hiccup_Virtual_Assistant
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.voiceSelectorList = new System.Windows.Forms.ComboBox();
             this.voiceSpeedBar = new System.Windows.Forms.TrackBar();
             this.speedGroupBox = new System.Windows.Forms.GroupBox();
@@ -40,10 +41,14 @@ namespace Hiccup_Virtual_Assistant
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.voiceVolumeBar = new System.Windows.Forms.TrackBar();
+            this.installedVoiceBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.installedVoiceBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.voiceSpeedBar)).BeginInit();
             this.speedGroupBox.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.voiceVolumeBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.installedVoiceBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.installedVoiceBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // voiceSelectorList
@@ -156,6 +161,14 @@ namespace Hiccup_Virtual_Assistant
             this.voiceVolumeBar.Value = 50;
             this.voiceVolumeBar.Scroll += new System.EventHandler(this.voiceVolumeBar_Scroll);
             // 
+            // installedVoiceBindingSource
+            // 
+            this.installedVoiceBindingSource.DataSource = typeof(System.Speech.Synthesis.InstalledVoice);
+            // 
+            // installedVoiceBindingSource1
+            // 
+            this.installedVoiceBindingSource1.DataSource = typeof(System.Speech.Synthesis.InstalledVoice);
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -174,6 +187,8 @@ namespace Hiccup_Virtual_Assistant
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.voiceVolumeBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.installedVoiceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.installedVoiceBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,5 +206,7 @@ namespace Hiccup_Virtual_Assistant
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         public System.Windows.Forms.TrackBar voiceVolumeBar;
+        private System.Windows.Forms.BindingSource installedVoiceBindingSource;
+        private System.Windows.Forms.BindingSource installedVoiceBindingSource1;
     }
 }

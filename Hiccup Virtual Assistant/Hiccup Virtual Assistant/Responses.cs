@@ -43,8 +43,15 @@ namespace Hiccup_Virtual_Assistant
                     string appToOpen = originalQuery.Substring(5);
                     ExternalProcess.StartInfo.FileName = appToOpen;
                     ExternalProcess.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
-                    ExternalProcess.Start();
-
+                    try
+                    {
+                        ExternalProcess.Start();
+                    }
+                    catch (System.Exception)
+                    {
+                        hicVoice.SpeakText("Error: File not found.");
+                        return ("Error: File not found.");
+                    }
                     string response = "Application started";
                     hicVoice.SpeakText(response);
                     return (response);
@@ -75,12 +82,20 @@ namespace Hiccup_Virtual_Assistant
                     return (response);
 
                 }
+                
 
             }
-
-            string answer = "I’m sorry, I don’t recognize that command, please try again.” ";
-            hicVoice.SpeakText(answer);
-            return(answer);
+            else if(theme == "none")
+            {
+                if(number == 1) 
+                { 
+                    string answer = "I’m sorry, I don’t recognize that command, please try again.";
+                    hicVoice.SpeakText(answer);
+                    return (answer);
+                }
+            }
+            return "";
+            
             /*
             // --------Small Talk -----------------------------------------------------------------------------
             if (question.Contains("Thank you"))

@@ -93,7 +93,10 @@ module Interpreter =
                 | RegexContains "day" query -> "datetime3"
         reply
 
-            
+    let no_response () = 
+        let reply =
+            "none1"
+        reply
 
     // The main response function, the first match with a key token returns the appropriate response.
 //    let rec response (token:string) (str:string) = 
@@ -126,7 +129,7 @@ module Interpreter =
     // Create active recognizers to divide the input into different categories
     let match_input (query:string) =
     
-        let (|Application|Hello|Goodbye|Question|DateTime|None|) query =
+        let (|Application|Hello|Goodbye|DateTime|None|) query =
                 match query with
                     | RegexContains "open" query| RegexContains "close" query | RegexContains "search" query | RegexContains "stop" query
                         -> Application //The Application recognizer is for opening or closing programs within the system - for example a web browser.
@@ -136,9 +139,6 @@ module Interpreter =
                         -> Goodbye
                     | RegexContains "time" query| RegexContains "date" query| RegexContains "day" query
                         -> DateTime
-                    | "when" | "who" | "what" | "where" | "why" | "how" | "search"
-                        -> Question // The question recognizer is for identifying questions to be searched.
-
                     | _ -> None
 
         let response =
@@ -149,10 +149,8 @@ module Interpreter =
                     -> hello_response()
                 |  Goodbye 
                     -> goodbye_response()
-                | Question
-                    -> question_response(query) // The question recognizer is for identifying questions to be searched.
                 | DateTime
                     -> datetime_response(query)
-                | _ -> goodbye_response()
+                | _ -> no_response()
         response
             

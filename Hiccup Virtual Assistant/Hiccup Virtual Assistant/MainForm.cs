@@ -21,7 +21,7 @@ namespace Hiccup_Virtual_Assistant
     {
         
         SettingsForm settings = new SettingsForm();
-        HicSpeech hicSpeech = new HicSpeech();
+        public HicSpeech hicVoice = new HicSpeech();
         WebForm webForm = new WebForm();
         Responses responses = new Responses();
 
@@ -36,19 +36,12 @@ namespace Hiccup_Virtual_Assistant
 
         async void listenButton_Click(object sender, EventArgs e)
         {
-            //textSpeakBox.Text = "Please say what you would like to be dictated";
-            //string question = await hicSpeech.FromMic(hicSpeech.speechConfig);
+            
             string question = typeBox.Text;
-            speakBox.Text = Environment.NewLine;
-            //string reply = responses.InterpretQuestion(question);
+            speakBox.Text = "";
 
             string reply = (ProcessInputs.Interpreter.match_input(question)).ToString();
-            if (reply.Contains("https://"))
-            {
-                webForm.ShowDialog();
-                webForm.questionBrowser.Navigate(reply);
-
-            }
+            
             if(reply.Any(char.IsDigit))
             {
                 string a = String.Join("", reply.Where(char.IsDigit));
@@ -62,6 +55,11 @@ namespace Hiccup_Virtual_Assistant
                 }
 
             }
+            else
+            {
+                hicVoice.SpeakText(reply);
+                
+            }
             
 
             speakBox.AppendText(reply);
@@ -71,7 +69,7 @@ namespace Hiccup_Virtual_Assistant
         private void SpeakButton_Click(object sender, EventArgs e)
         {
             string textToSpeak = speakBox.Text;
-            hicSpeech.SpeakText(textToSpeak);
+            hicVoice.SpeakText(textToSpeak);
 
         }
         private void settingsButton_Click(object sender, EventArgs e)
@@ -95,17 +93,17 @@ namespace Hiccup_Virtual_Assistant
 
         private void pauseButton_Click(object sender, EventArgs e)
         {
-            hicSpeech.PauseSpeaking();
+            hicVoice.PauseSpeaking();
         }
 
         private void resumeButton_Click(object sender, EventArgs e)
         {
-            hicSpeech.ResumeSpeaking();
+            hicVoice.ResumeSpeaking();
         }
 
         private void stopButton_Click(object sender, EventArgs e)
         {
-            hicSpeech.StopSpeaking();
+            hicVoice.StopSpeaking();
         }
 
         private void button1_Click(object sender, EventArgs e)

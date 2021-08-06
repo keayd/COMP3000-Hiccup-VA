@@ -13,10 +13,10 @@ using System.Speech.Synthesis;
 
 namespace Hiccup_Virtual_Assistant
 {
-    class HicSpeech
+    public class HicSpeech
     {
         //public SpeechConfig speechConfig;
-        SpeechSynthesizer hicVoice;
+        SpeechSynthesizer hicVoice = new SpeechSynthesizer();
         bool isSpeaking = false;
         
 
@@ -38,9 +38,7 @@ namespace Hiccup_Virtual_Assistant
         public void SpeakText(string TextToSpeak)
         {
             isSpeaking = true;
-            hicVoice = new SpeechSynthesizer();
-
-            hicVoice.Speak(TextToSpeak);
+            hicVoice.SpeakAsync(TextToSpeak);
 
         }
 
@@ -70,6 +68,12 @@ namespace Hiccup_Virtual_Assistant
                 
             }
             isSpeaking = false;
+        }
+
+        public void ChangeVoice(string voice)
+        {
+            hicVoice.SelectVoice(voice);
+
         }
 
         private void InitializeHicSpeech()

@@ -13,17 +13,18 @@ namespace Hiccup_Virtual_Assistant
 {
     public partial class SettingsForm : Form
     {
-       
         public SettingsForm()
         {
            
             InitializeComponent();
-            
+           
+
         }
 
         public void voiceSelectorList_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+
         }
 
         private void voiceSpeedBar_Scroll(object sender, EventArgs e)
