@@ -36,6 +36,7 @@ namespace Hiccup_Virtual_Assistant
             this.speakBox = new System.Windows.Forms.TextBox();
             this.pauseButton = new System.Windows.Forms.Button();
             this.resumeButton = new System.Windows.Forms.Button();
+            this.stopButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // typeBox
@@ -49,7 +50,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // ListenButton
             // 
-            this.ListenButton.Location = new System.Drawing.Point(114, 703);
+            this.ListenButton.Location = new System.Drawing.Point(190, 703);
             this.ListenButton.Name = "ListenButton";
             this.ListenButton.Size = new System.Drawing.Size(156, 84);
             this.ListenButton.TabIndex = 0;
@@ -59,7 +60,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // SpeakButton
             // 
-            this.SpeakButton.Location = new System.Drawing.Point(586, 703);
+            this.SpeakButton.Location = new System.Drawing.Point(514, 703);
             this.SpeakButton.Name = "SpeakButton";
             this.SpeakButton.Size = new System.Drawing.Size(168, 84);
             this.SpeakButton.TabIndex = 1;
@@ -69,9 +70,9 @@ namespace Hiccup_Virtual_Assistant
             // 
             // SettingsButton
             // 
-            this.SettingsButton.Location = new System.Drawing.Point(753, 12);
+            this.SettingsButton.Location = new System.Drawing.Point(627, 27);
             this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(113, 67);
+            this.SettingsButton.Size = new System.Drawing.Size(127, 67);
             this.SettingsButton.TabIndex = 2;
             this.SettingsButton.Text = "Settings";
             this.SettingsButton.UseVisualStyleBackColor = true;
@@ -88,7 +89,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // pauseButton
             // 
-            this.pauseButton.Location = new System.Drawing.Point(292, 703);
+            this.pauseButton.Location = new System.Drawing.Point(114, 26);
             this.pauseButton.Name = "pauseButton";
             this.pauseButton.Size = new System.Drawing.Size(127, 68);
             this.pauseButton.TabIndex = 5;
@@ -98,7 +99,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // resumeButton
             // 
-            this.resumeButton.Location = new System.Drawing.Point(449, 703);
+            this.resumeButton.Location = new System.Drawing.Point(292, 26);
             this.resumeButton.Name = "resumeButton";
             this.resumeButton.Size = new System.Drawing.Size(127, 68);
             this.resumeButton.TabIndex = 6;
@@ -106,12 +107,23 @@ namespace Hiccup_Virtual_Assistant
             this.resumeButton.UseVisualStyleBackColor = true;
             this.resumeButton.Click += new System.EventHandler(this.resumeButton_Click);
             // 
+            // stopButton
+            // 
+            this.stopButton.Location = new System.Drawing.Point(449, 26);
+            this.stopButton.Name = "stopButton";
+            this.stopButton.Size = new System.Drawing.Size(127, 68);
+            this.stopButton.TabIndex = 9;
+            this.stopButton.Text = "Stop";
+            this.stopButton.UseVisualStyleBackColor = true;
+            this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(878, 844);
+            this.Controls.Add(this.stopButton);
             this.Controls.Add(this.typeBox);
             this.Controls.Add(this.resumeButton);
             this.Controls.Add(this.pauseButton);
@@ -139,6 +151,7 @@ namespace Hiccup_Virtual_Assistant
         private System.Windows.Forms.Button pauseButton;
         private System.Windows.Forms.Button resumeButton;
         private System.Windows.Forms.TextBox typeBox;
+        private System.Windows.Forms.Button stopButton;
     }
 }
 
