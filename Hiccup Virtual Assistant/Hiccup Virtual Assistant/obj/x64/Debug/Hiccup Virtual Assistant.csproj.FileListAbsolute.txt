@@ -32,4 +32,3 @@ C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bi
 C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\tr\FSharp.Core.resources.dll
 C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\zh-Hans\FSharp.Core.resources.dll
 C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\bin\x64\Debug\zh-Hant\FSharp.Core.resources.dll
-C:\Users\badge\source\repos\Hiccup Virtual Assistant\Hiccup Virtual Assistant\obj\x64\Debug\Hiccup_Virtual_Assistant.WebForm.resources

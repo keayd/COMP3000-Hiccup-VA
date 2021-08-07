@@ -16,7 +16,7 @@ namespace Hiccup_Virtual_Assistant
     public class HicSpeech
     {
         //public SpeechConfig speechConfig;
-        SpeechSynthesizer hicVoice = new SpeechSynthesizer();
+        public SpeechSynthesizer hicVoice = new SpeechSynthesizer();
         bool isSpeaking = false;
         
 
@@ -47,15 +47,16 @@ namespace Hiccup_Virtual_Assistant
             if (isSpeaking == true)
             {
                 hicVoice.Pause();
-
+                isSpeaking = false;
             }
         }
 
         public void ResumeSpeaking()
         {
-            if (isSpeaking == true)
+            if (isSpeaking == false)
             {
                 hicVoice.Resume();
+                isSpeaking = true;
             }
 
         }
@@ -64,16 +65,27 @@ namespace Hiccup_Virtual_Assistant
         {
             if (isSpeaking == true)
             {
-                hicVoice.Dispose();
-                
+                hicVoice.Pause(); //Can't dispose object - just pausing for now.
+                isSpeaking = false;
             }
-            isSpeaking = false;
+            
         }
 
         public void ChangeVoice(string voice)
         {
             hicVoice.SelectVoice(voice);
+            
+        }
 
+        public void ChangeVolume(int volume)
+        {
+            hicVoice.Volume = volume;
+
+        }
+
+        public void ChangeRate(int rate)
+        {
+            hicVoice.Rate = rate;
         }
 
         private void InitializeHicSpeech()

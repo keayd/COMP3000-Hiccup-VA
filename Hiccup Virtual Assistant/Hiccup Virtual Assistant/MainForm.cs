@@ -21,8 +21,7 @@ namespace Hiccup_Virtual_Assistant
     {
         
         SettingsForm settings = new SettingsForm();
-        public HicSpeech hicVoice = new HicSpeech();
-        WebForm webForm = new WebForm();
+        public HicSpeech hicVoiceForm = new HicSpeech();
         Responses responses = new Responses();
 
         public MainWindow()
@@ -57,7 +56,7 @@ namespace Hiccup_Virtual_Assistant
             }
             else
             {
-                hicVoice.SpeakText(reply);
+                hicVoiceForm.SpeakText(reply);
                 
             }
             
@@ -69,14 +68,16 @@ namespace Hiccup_Virtual_Assistant
         private void SpeakButton_Click(object sender, EventArgs e)
         {
             string textToSpeak = speakBox.Text;
-            hicVoice.SpeakText(textToSpeak);
+            hicVoiceForm.SpeakText(textToSpeak);
 
         }
         private void settingsButton_Click(object sender, EventArgs e)
         {
 
-            
+            settings.setHicVoice = hicVoiceForm;
+            responses.hicVoice = hicVoiceForm;
             settings.ShowDialog();
+            
 
 
         }
@@ -93,17 +94,17 @@ namespace Hiccup_Virtual_Assistant
 
         private void pauseButton_Click(object sender, EventArgs e)
         {
-            hicVoice.PauseSpeaking();
+            hicVoiceForm.PauseSpeaking();
         }
 
         private void resumeButton_Click(object sender, EventArgs e)
         {
-            hicVoice.ResumeSpeaking();
+            hicVoiceForm.ResumeSpeaking();
         }
 
         private void stopButton_Click(object sender, EventArgs e)
         {
-            hicVoice.StopSpeaking();
+            hicVoiceForm.StopSpeaking();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -9,7 +9,7 @@ namespace Hiccup_Virtual_Assistant
 {
     class Responses
     {
-        HicSpeech hicVoice = new HicSpeech();
+        public HicSpeech hicVoice = new HicSpeech();
         Process ExternalProcess = new Process();
         public string originalQuery;
         public string InterpretQuestion(string theme, int number)
@@ -26,7 +26,7 @@ namespace Hiccup_Virtual_Assistant
                 else if(number == 2) // Return current date
                 {
                     string response = "The current date is: " + DateTime.Now.ToString("dd/MM/yyyy");
-                    hicVoice.SpeakText(response);
+                    hicVoice.SpeakText(response); // The american voices read the date in mm/dd/yyyy, but the british ones read it in dd/mm/yyyy. Fix this given enough time.
                     return (response);
                 }
                 else if (number == 3) // Return current day

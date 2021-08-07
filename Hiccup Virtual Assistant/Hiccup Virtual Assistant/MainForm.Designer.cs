@@ -29,30 +29,27 @@ namespace Hiccup_Virtual_Assistant
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox typeBox;
+            this.typeBox = new System.Windows.Forms.TextBox();
             this.ListenButton = new System.Windows.Forms.Button();
             this.SpeakButton = new System.Windows.Forms.Button();
             this.SettingsButton = new System.Windows.Forms.Button();
             this.speakBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.pauseButton = new System.Windows.Forms.Button();
             this.resumeButton = new System.Windows.Forms.Button();
-            this.stopButton = new System.Windows.Forms.Button();
-            this.typeBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // typeBox
             // 
-            this.typeBox.Location = new System.Drawing.Point(114, 171);
+            this.typeBox.Location = new System.Drawing.Point(114, 100);
             this.typeBox.Multiline = true;
             this.typeBox.Name = "typeBox";
-            this.typeBox.Size = new System.Drawing.Size(305, 526);
+            this.typeBox.Size = new System.Drawing.Size(305, 597);
             this.typeBox.TabIndex = 8;
             this.typeBox.TextChanged += new System.EventHandler(this.typeBox_TextChanged);
             // 
             // ListenButton
             // 
-            this.ListenButton.Location = new System.Drawing.Point(193, 703);
+            this.ListenButton.Location = new System.Drawing.Point(114, 703);
             this.ListenButton.Name = "ListenButton";
             this.ListenButton.Size = new System.Drawing.Size(156, 84);
             this.ListenButton.TabIndex = 0;
@@ -62,7 +59,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // SpeakButton
             // 
-            this.SpeakButton.Location = new System.Drawing.Point(518, 703);
+            this.SpeakButton.Location = new System.Drawing.Point(586, 703);
             this.SpeakButton.Name = "SpeakButton";
             this.SpeakButton.Size = new System.Drawing.Size(168, 84);
             this.SpeakButton.TabIndex = 1;
@@ -72,9 +69,9 @@ namespace Hiccup_Virtual_Assistant
             // 
             // SettingsButton
             // 
-            this.SettingsButton.Location = new System.Drawing.Point(747, 12);
+            this.SettingsButton.Location = new System.Drawing.Point(753, 12);
             this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(119, 68);
+            this.SettingsButton.Size = new System.Drawing.Size(113, 67);
             this.SettingsButton.TabIndex = 2;
             this.SettingsButton.Text = "Settings";
             this.SettingsButton.UseVisualStyleBackColor = true;
@@ -82,26 +79,16 @@ namespace Hiccup_Virtual_Assistant
             // 
             // speakBox
             // 
-            this.speakBox.Location = new System.Drawing.Point(449, 171);
+            this.speakBox.Location = new System.Drawing.Point(449, 100);
             this.speakBox.Multiline = true;
             this.speakBox.Name = "speakBox";
-            this.speakBox.Size = new System.Drawing.Size(305, 526);
+            this.speakBox.Size = new System.Drawing.Size(305, 597);
             this.speakBox.TabIndex = 3;
             this.speakBox.TextChanged += new System.EventHandler(this.speakBox_TextChanged);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(114, 97);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 68);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Do Nothing";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // pauseButton
             // 
-            this.pauseButton.Location = new System.Drawing.Point(292, 97);
+            this.pauseButton.Location = new System.Drawing.Point(292, 703);
             this.pauseButton.Name = "pauseButton";
             this.pauseButton.Size = new System.Drawing.Size(127, 68);
             this.pauseButton.TabIndex = 5;
@@ -111,7 +98,7 @@ namespace Hiccup_Virtual_Assistant
             // 
             // resumeButton
             // 
-            this.resumeButton.Location = new System.Drawing.Point(449, 97);
+            this.resumeButton.Location = new System.Drawing.Point(449, 703);
             this.resumeButton.Name = "resumeButton";
             this.resumeButton.Size = new System.Drawing.Size(127, 68);
             this.resumeButton.TabIndex = 6;
@@ -119,26 +106,15 @@ namespace Hiccup_Virtual_Assistant
             this.resumeButton.UseVisualStyleBackColor = true;
             this.resumeButton.Click += new System.EventHandler(this.resumeButton_Click);
             // 
-            // stopButton
-            // 
-            this.stopButton.Location = new System.Drawing.Point(627, 97);
-            this.stopButton.Name = "stopButton";
-            this.stopButton.Size = new System.Drawing.Size(127, 68);
-            this.stopButton.TabIndex = 7;
-            this.stopButton.Text = "Stop";
-            this.stopButton.UseVisualStyleBackColor = true;
-            this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(878, 844);
             this.Controls.Add(this.typeBox);
-            this.Controls.Add(this.stopButton);
             this.Controls.Add(this.resumeButton);
             this.Controls.Add(this.pauseButton);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.speakBox);
             this.Controls.Add(this.SettingsButton);
             this.Controls.Add(this.SpeakButton);
@@ -160,11 +136,9 @@ namespace Hiccup_Virtual_Assistant
         private System.Windows.Forms.Button SpeakButton;
         private System.Windows.Forms.Button SettingsButton;
         public System.Windows.Forms.TextBox speakBox;
-        public System.Windows.Forms.TextBox typeBox;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button pauseButton;
         private System.Windows.Forms.Button resumeButton;
-        private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.TextBox typeBox;
     }
 }
 
