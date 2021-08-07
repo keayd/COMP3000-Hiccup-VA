@@ -1,0 +1,28 @@
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.csprojAssemblyReference.cache
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup_Virtual_Assistant.MainWindow.resources
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup_Virtual_Assistant_Dependantless.Properties.Resources.resources
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup_Virtual_Assistant.SettingsForm.resources
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.csproj.GenerateResource.cache
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.csproj.CoreCompileInputs.cache
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\Hiccup Virtual Assistant Dependantless.exe.config
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\Hiccup Virtual Assistant Dependantless.exe
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\Hiccup Virtual Assistant Dependantless.pdb
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\Process Speech Input.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\FSharp.Core.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\Process Speech Input.pdb
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\cs\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\de\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\fr\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\it\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\ja\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\ko\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\pl\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\pt-BR\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\tr\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.csproj.CopyComplete
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.exe
+C:\Users\badge\source\repos\HiccupVA Dependantless\Hiccup Virtual Assistant Dependantless\obj\Debug\Hiccup Virtual Assistant Dependantless.pdb
