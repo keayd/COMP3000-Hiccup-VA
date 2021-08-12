@@ -107,7 +107,7 @@ namespace Hiccup_Virtual_Assistant
 
         private void InitializeHicSpeech()
         {
-            //Hello, would you like some beans? It is seven o'clock
+            
             //speechConfig = SpeechConfig.FromSubscription("daba658c554947eca9afec43d0cc9e5e", "uksouth");
             //speechConfig.SpeechSynthesisVoiceName = "en-GB-RyanNeural";
             //speechConfig.SpeechSynthesisVoiceName = "en-AU-Catherine";
